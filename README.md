@@ -14,5 +14,5 @@ TO DO DOCS
 TO DO SCRIPTS
 * Script para baixar fiware dentro da MQ virtual
 * (Ver se é possivel) script para criar a maquina virtual da azure
-* Script para instalar python no windows
+* Script para instalar python no windows + script pra executar o python em segundo plano
 * Script para criar dispositivo lógico no fiware pelo postman (Ou então criar pelo proprio cmd, que eu não quero)
