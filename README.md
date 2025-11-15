@@ -1,3 +1,3 @@
 # Edge-HealthChair
 
-wget -qO- https://gist.githubusercontent.com/SEU_USUARIO/ID_DO_GIST/raw/install_fiware.sh | bash
+wget -qO- https://raw.githubusercontent.com/Global-Solution-Future-At-Work/Edge-HealthChair/refs/heads/main/install_fiware.sh | bash
