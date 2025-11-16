@@ -6,6 +6,3 @@ wget -qO- https://raw.githubusercontent.com/Global-Solution-Future-At-Work/Edge-
 
 TO DO DOCS
 * fazer vídeo
-* fazer doc
-* explicar que o projeto só roda no windows
-* opcional -> colocar foto indicando como instalar o sensor na cadeira
