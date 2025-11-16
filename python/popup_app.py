@@ -50,7 +50,7 @@ def quit_callback(systray):
     global _exit_app
     _exit_app = True
 
-tray_app = SysTrayIcon("icon.ico", "HealthChair", menu_options, on_quit=quit_callback)
+tray_app = SysTrayIcon("chair.ico", "HealthChair", menu_options, on_quit=quit_callback)
 
 exec_t = threading.Thread(target=request_server, name="t1")
 exec_t.start()

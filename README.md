@@ -7,12 +7,10 @@ wget -qO- https://raw.githubusercontent.com/Global-Solution-Future-At-Work/Edge-
 TO DO DOCS
 * fazer vídeo
 * fazer doc
-* colocar icon no sys tray
 * explicar que o projeto só roda no windows
 * opcional -> colocar foto indicando como instalar o sensor na cadeira
 
 TO DO SCRIPTS
-* Script para baixar fiware dentro da MQ virtual
 * (Ver se é possivel) script para criar a maquina virtual da azure
 * Script para instalar python no windows + script pra executar o python em segundo plano
 * Script para criar dispositivo lógico no fiware pelo postman (Ou então criar pelo proprio cmd, que eu não quero)
