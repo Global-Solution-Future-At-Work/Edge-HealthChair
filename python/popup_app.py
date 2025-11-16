@@ -8,11 +8,12 @@ import ctypes
 
 _sys_state = True
 _exit_app = False
-_ip = "20.80.233.86"
+_mensagem_popup = 'Você está fora de postura. Fique de postura reta em sua cadeira!'
+_titulo_popup = "Health Chair 🪑"
 
-mensagem_popup = 'Você está fora de postura. Fique de postura reta em sua cadeira!'
-titulo_popup = "Health Chair 🪑"
-distance_person_from_chair = 15 #CM
+#Altere os valores abaixo!
+_ip = "20.80.233.86" #<- Exemplo de IP. Altere aqui
+_distance_person_from_chair = 15 #Valores em CM. Padrão recomendado.
 
 def turn_on(systray):
     global _sys_state
@@ -39,8 +40,8 @@ def request_server():
                     "accept": "application/json"
                 }).json()["value"]
                 print(data)
-                if data > distance_person_from_chair:
-                    ctypes.windll.user32.MessageBoxW(0, mensagem_popup, titulo_popup, 0)
+                if data > _distance_person_from_chair:
+                    ctypes.windll.user32.MessageBoxW(0, _mensagem_popup, _titulo_popup, 0)
             except:
                 print("Houve um erro na conexão...")
 
