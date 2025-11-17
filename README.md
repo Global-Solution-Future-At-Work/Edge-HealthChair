@@ -14,7 +14,7 @@ Dessa forma, o sistema contribui diretamente para condições de trabalho mais s
 **Mídias do Projeto:**
 *   **Vídeo Demonstrativo (YouTube):** ADICIONAR DEPOIS
 *   **Imagem do Circuito/Protótipo:**
-  <img src="https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/embarcado/schema_photo.png?raw=true">
+  <img src="https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/schema_photo.png?raw=true">
 
 ---
 
@@ -76,7 +76,7 @@ As conexões de alimentação (3V e GND) podem ser distribuídas pela protoboard
 	* CPU com **1 Núcleo** ou **+**
 	* **1GB** de memória RAM
 	* **32GB** de memória OS + **32GB** extra (para banco de dados)
-* Veja um exemplo da azure:<br> ![recomendao_maquina.png](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/python/recomendao_maquina.png?raw=true)
+* Veja um exemplo da azure:<br> ![recomendao_maquina.png](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/recomendao_maquina.png?raw=true)
 
 2.  **Configuração de ambiente da VM:**
 *   Libere as seguintes portas da máquina virtual:
@@ -105,11 +105,11 @@ wget  -qO-  https://raw.githubusercontent.com/Global-Solution-Future-At-Work/Edg
 *   Abra o projeto no Wokwi através do link: [https://wokwi.com/projects/432609669649223681](https://wokwi.com/projects/432609669649223681)
 	*   Se estiver montando do zero, carregue o arquivo `diagram.json` (para o circuito) e cole o código fornecido no editor do Arduino Uno.
 * Na seguintes linhas, altere o BROKER_MQTT para endereço da máquina virtual criada. (Caso esteja testando de forma física, certifique também de mudar o SSID e o password para uma rede de Wi-Fi disponível):
-![codigo](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/embarcado/codigo_arduino_foto.png?raw=true)
+![codigo](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/codigo_arduino_foto.png?raw=true)
 * Após isso, execute o projeto e controle o Sensor Ultrassônico da aplicação para a distância desejada (Simuladores do Wokwi permitem até 4 metros = 400cm). Seus dados já estão sendo transmitidos para a nuvem!
 
 5. **Acessar código da aplicação do OS**
-* Clone o repositório e acesse a pasta "python". Edite as seguintes variáveis: ![codigo_python](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/python/codigo_python_linhas.png?raw=true)
+* Clone o repositório e acesse a pasta "python". Edite as seguintes variáveis: ![codigo_python](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/codigo_python_linhas.png?raw=true)
 * Após isso, volte para a raiz do diretório clonado e execute o arquivo `start_python_app`
 
 Pronto! Todos os passos já estão cumpridos e projeto já pode ser usado.
@@ -118,7 +118,7 @@ Pronto! Todos os passos já estão cumpridos e projeto já pode ser usado.
 
 1. **Instale o ESP32 de maneira correta**
 * E necessário que o dispositivo se mantenha no topo da cadeira para funcionamento correto. Veja o exemplo:
-![exemplo_instalação](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/embarcado/exemplo_instalacao.png?raw=true)
+![exemplo_instalação](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/exemplo_instalacao.png?raw=true)
 2. **Conecte ele a uma fonte de energia**
 * O ESP32 aceita:
 	* Pilhas 9 Volts para funcionamento sem cabos
