@@ -29,6 +29,16 @@ O objetivo principal deste sistema é **automatizar a abertura de uma escotilha 
 *   **Sensor de Medição:** 1x Sensor Ultrassônico HC-SR04
 *   **Montagem:** Fios de conexão (Jumpers)
 
+## 🗺️ Arquitetura<br>
+	<img src="https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/arquitetura.png?raw=true"><br>
+	
+## 📚 Bibliotecas necessárias (ESP32)
+| Biblioteca | Função |
+|--|--|
+| [WiFi.h](https://docs.arduino.cc/libraries/wifi) | Permite que o ESP32 conecte à Internet via Wi-Fi |
+| [PubSubClient.h](https://docs.arduino.cc/libraries/pubsubclient) | Permite que o Arduino envie e receba mensagens MQTT |
+
+
 
 ## 📦 Funcionalidades
 
