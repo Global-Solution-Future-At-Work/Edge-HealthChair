@@ -114,7 +114,7 @@ wget  -qO-  https://raw.githubusercontent.com/Global-Solution-Future-At-Work/Edg
 4.  **Acessar código do hardware:**
 *   Abra o projeto no Wokwi através do link: [https://wokwi.com/projects/432609669649223681](https://wokwi.com/projects/432609669649223681)
 	*   Se estiver montando do zero, carregue o arquivo `diagram.json` (para o circuito) e cole o código fornecido no editor do Arduino Uno.
-* Na seguintes linhas, altere o BROKER_MQTT para endereço da máquina virtual criada. (Caso esteja testando de forma física, certifique também de mudar o SSID e o password para uma rede de Wi-Fi disponível):
+* Na seguintes linhas, altere o BROKER_MQTT para endereço da máquina virtual criada. (Caso esteja testando de forma física, certifique também de mudar o SSID e o password para uma rede de Wi-Fi disponível):<br>
 ![codigo](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/codigo_arduino_foto.png?raw=true)
 * Após isso, execute o projeto e controle o Sensor Ultrassônico da aplicação para a distância desejada (Simuladores do Wokwi permitem até 4 metros = 400cm). Seus dados já estão sendo transmitidos para a nuvem!
 
