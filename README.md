@@ -11,6 +11,9 @@ O dispositivo usa um sensor ultrassônico conectado a um ESP32 para medir a dist
 Dessa forma, o sistema contribui diretamente para condições de trabalho mais saudáveis e alinhadas com a **ODS 8 da ONU**, que incentiva ambientes de trabalho decentes e que cuidem da saúde do trabalhador.
 
 **Link para o Wokwi:** [https://wokwi.com/projects/447606800978932737](https://wokwi.com/projects/447606800978932737) <br>
+
+**Link do repositório:** https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair
+
 **Mídias do Projeto:**
 *   **Vídeo Demonstrativo (YouTube):** https://youtu.be/uinE4aQjWwY
 *   **Imagem do Circuito/Protótipo:**
