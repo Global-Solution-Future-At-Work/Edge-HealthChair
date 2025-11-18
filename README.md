@@ -119,7 +119,7 @@ wget  -qO-  https://raw.githubusercontent.com/Global-Solution-Future-At-Work/Edg
 * Após isso, execute o projeto e controle o Sensor Ultrassônico da aplicação para a distância desejada (Simuladores do Wokwi permitem até 4 metros = 400cm). Seus dados já estão sendo transmitidos para a nuvem!
 
 5. **Acessar código da aplicação do OS**
-* Clone o repositório e acesse a pasta "python". Edite as seguintes variáveis: ![codigo_python](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/codigo_python_linhas.png?raw=true)
+* Clone o repositório e acesse a pasta "python". Edite as seguintes variáveis:<br> ![codigo_python](https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/codigo_python_linhas.png?raw=true)
 * Após isso, volte para a raiz do diretório clonado e execute o arquivo `start_python_app`
 
 Pronto! Todos os passos já estão cumpridos e projeto já pode ser usado.
