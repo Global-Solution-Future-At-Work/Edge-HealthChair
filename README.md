@@ -12,7 +12,7 @@ Dessa forma, o sistema contribui diretamente para condições de trabalho mais s
 
 **Link para o Wokwi:** [https://wokwi.com/projects/447606800978932737](https://wokwi.com/projects/447606800978932737) <br>
 **Mídias do Projeto:**
-*   **Vídeo Demonstrativo (YouTube):** ADICIONAR DEPOIS
+*   **Vídeo Demonstrativo (YouTube):** https://youtu.be/uinE4aQjWwY
 *   **Imagem do Circuito/Protótipo:**
   <img src="https://github.com/Global-Solution-Future-At-Work/Edge-HealthChair/blob/main/fotos/schema_photo.png?raw=true">
 
