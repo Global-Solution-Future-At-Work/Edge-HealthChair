@@ -106,9 +106,9 @@ wget  -qO-  https://raw.githubusercontent.com/Global-Solution-Future-At-Work/Edg
 		* Key = "url" 
 		* value = "IP_MAQUINA_NUVEM"
 	* Executar, em ordem, os seguintes requests:
-		* 2. Provisioning a Service Group for MQTT
-		* 3. Provisioning a Device
-		* 4. Registering Device Commands
+		* (2.) Provisioning a Service Group for MQTT
+		* (3.) Provisioning a Device
+		* (4.) Registering Device Commands
 * Após isso, a aplicação na nuvem está configurada com sucesso!
 
 4.  **Acessar código do hardware:**
